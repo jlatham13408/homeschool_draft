@@ -20,6 +20,9 @@ app.get('/about', function(req, res){
 app.get('/contact', function(req, res){
   res.sendFile('html/contact.html', { root: __dirname + '/public' });
 });
+// app.get('/todolist', function(req, res){
+//   res.sendFile('html/todolist.html', { root: __dirname + '/public' });
+// });
 // app.get('/login', function(req, res){
 //   res.sendFile('html/login.html', { root: __dirname + '/public' });
 // });

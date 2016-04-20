@@ -62,24 +62,33 @@ p {
   text-align: center;
   color: black;
 }
-.img {
+/*.img {
   margin-left: 0px;
   padding-top: -10px;
-}
+}*/
 
 .row {
   text-align: center;
   font-size: 30px;
   color: grey;
   font-family: 'fantasy';
-  padding-top: 80px;
+  padding-top: 60px;
   margin-left: 70px;
 
 }
-#calendar {
+.img {
   position: absolute;
   margin-left: 25%;
   margin-right: auto;
   padding: 0%;
-  height: 800px;
+  height: 200px;
+}
+
+.about {
+  position: absolute;
+  margin-left: 40%;
+}
+#todolist {
+  position: absolute;
+  padding-left: 15%;
 }
