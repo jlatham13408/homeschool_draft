@@ -23,7 +23,7 @@ ul.topnav li a {
   padding: 8px 10px;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 ul.topnav li a:hover {background-color: grey;}
@@ -75,4 +75,11 @@ p {
   padding-top: 80px;
   margin-left: 70px;
 
+}
+#calendar {
+  position: absolute;
+  margin-left: 25%;
+  margin-right: auto;
+  padding: 0%;
+  height: 800px;
 }
